@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gozen Ring Servis</string>
+
+    <string-array name="stations">
+        <item> A 11 </item>
+        <item> B 8 </item>
+        <item> D 17 </item>
+        <item> F 8 </item>
+        <item> crew office </item>
+        <item> Apron office </item>
+        <item> campus </item>
+        <item> Do-Co </item>
+        <item> Cargo </item>
+        <item> Post office </item>
+    </string-array>
+
+
+</resources>

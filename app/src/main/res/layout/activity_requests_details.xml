@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequestsDetailsActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/LLImage1"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/first" />
+
+        <TextView
+            android:id="@+id/txtsts1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deneme1"
+            android:textColor="@color/Myred"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----->"
+            android:textStyle="bold"
+            android:textColor="@color/Myred"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLImage2"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/second"/>
+
+        <TextView
+            android:id="@+id/txtsts2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deneme2"
+            android:textColor="@color/Myred"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----->"
+            android:textStyle="bold"
+            android:textColor="@color/Myred"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/LLImage1"
+        android:id="@+id/LLImage3"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/time" />
+
+        <TextView
+            android:id="@+id/txttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deneme1"
+            android:textColor="@color/Myred"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/LLImage2"
+        android:id="@+id/LLImage4"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/countpeople"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many people did you pick up at the stop?"
+            android:gravity="center_horizontal"
+            android:textColor="@color/Myred"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtNewCount"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LLImage4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:inputType="phone"
+        android:text="number"
+        android:textColor="@color/Myred"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/edtNewCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnUpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Myred"
+            android:text="update"/>
+
+        <Button
+            android:id="@+id/btnDlt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Myred"
+            android:text="ı took everybody"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>

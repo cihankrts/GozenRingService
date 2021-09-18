@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "402137850000",
+    "firebase_url": "https://gozen-ring-servis.firebaseio.com",
+    "project_id": "gozen-ring-servis",
+    "storage_bucket": "gozen-ring-servis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402137850000:android:3a76b8131bddf676ca3815",
+        "android_client_info": {
+          "package_name": "com.cihan.gozenringservis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402137850000-gsujj98gdb0t0h61ksq4msnheb81svn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt5SRiZA-_5Fi285RLxKA5Q6spPfppyhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402137850000-gsujj98gdb0t0h61ksq4msnheb81svn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

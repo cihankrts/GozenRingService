@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context=".DriverActivity">
+
+
+        <TextView
+            android:id="@+id/txtStation1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="station1"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Myred"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="---->"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Myred"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtStation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="station2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Myred"
+            android:layout_marginLeft="120dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="count"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Myred"
+            android:layout_marginLeft="210dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Myred"
+            android:layout_marginLeft="260dp"
+            android:textStyle="bold"/>
+        
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/txtStation1"
+            android:background="@drawable/red"/>
+
+
+
+
+
+
+
+</RelativeLayout>
